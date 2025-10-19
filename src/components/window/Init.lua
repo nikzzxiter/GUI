@@ -34,8 +34,8 @@ return function(Config)
         
         Size = Config.Size,
         
-        MinSize = Config.MinSize or Vector2.new(560, 350),
-        MaxSize = Config.MaxSize or Vector2.new(850, 560),
+        MinSize = Config.MinSize or Vector2.new(660, 400),
+        MaxSize = Config.MaxSize or Vector2.new(950, 620),
     
         ToggleKey = Config.ToggleKey,
         Transparent = Config.Transparent or false,
